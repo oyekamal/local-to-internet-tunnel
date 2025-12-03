@@ -1,0 +1,2 @@
+# This file ensures the bin/ directory is tracked in git
+# The directory will exist but downloaded binaries will be ignored

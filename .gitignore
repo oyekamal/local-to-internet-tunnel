@@ -2,4 +2,13 @@
 
 #Ignore vscode AI rules
 .github/instructions/codacy.instructions.md
-bin/*
+
+# Ignore downloaded binaries but keep the bin/ folder structure
+bin/cloudflared*
+bin/*.exe
+bin/*.zip
+bin/*.tar.gz
+
+# Keep the bin directory in git but ignore its contents
+!bin/
+!bin/.gitkeep
